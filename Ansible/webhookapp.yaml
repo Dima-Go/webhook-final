@@ -1,0 +1,5 @@
+---
+- hosts: python_app
+  become: true
+  roles: 
+    - webhookapp 
